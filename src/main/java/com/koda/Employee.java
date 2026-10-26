@@ -26,6 +26,7 @@ public class Employee {
     public void increaseSalary(int amount) {
         if (amount <= 0) {
             System.out.println("\n");
+            System.out.println("Salary Increase: Rp. " + amount);
             System.out.println("Error: Kenaikan gaji harus lebih dari 0");
             System.out.println("Current Salary: Rp. " + getSalary());
         } else {
